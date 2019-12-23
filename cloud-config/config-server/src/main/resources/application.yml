@@ -1,0 +1,14 @@
+## 配置端口
+server:
+  port: 8888
+
+spring:
+  application:
+    # 配置服务
+    name: config-server
+  cloud:
+    config:
+      server:
+        # Git地址配置
+        git:
+          uri: file://${user.dir}/cloud-config/config-server/src/main/resources/configs

@@ -1,0 +1,9 @@
+### 随机端口
+server:
+  port: 6666
+spring:
+  application:
+    name: zk-discovery-serverr
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
